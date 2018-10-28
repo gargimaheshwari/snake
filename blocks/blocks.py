@@ -49,7 +49,7 @@ def main():
     
     clock = pygame.time.Clock()
     
-    for i in range(N-1):
+    for i in range(N):
         possible_box = set(range(W*H)) - set(blocks)
         blocks.append(random.choice(list(possible_box)))
         pygame.display.update(draw_rects(window)) # Update only to draw squares
