@@ -10,7 +10,7 @@ The folder "manual" contains the following files
 
 These represent the three broad steps I took to *manually* code the system to play a game of snake (as in cherry_snake). What this means is that the system is **not** intelligent and will just follow the commands given to it to get to the cherry. How to get to the cherry etc has been "hard-coded".
 
-Now, of course, no system is truly intelligent, but this one does not learn from its mistakes or anything like that either. Think of a calculator giving you "4" every time you ask it "2 + 2". If you change the meaning of "+" to mean "%" and try to teach the calculator that, it is useless. So is this program.
+Now, of course, no system is truly intelligent, but this one does not learn from its mistakes or anything like that either. Think of a calculator giving you "4" every time you ask it "2 + 2". If you change the meaning of "+" to mean "%" and try to teach the calculator that by saying "no, 2 + 2 = 0", it is useless. So is this program.
 
 Additionally, the code is very basic - it just calculates the distance to the cherry and then moves the snake in that direction. Which means it dies easily, and often. At some point I will get around to programming a better manual version.
 
